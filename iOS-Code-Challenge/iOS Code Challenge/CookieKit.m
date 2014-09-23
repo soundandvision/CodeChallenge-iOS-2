@@ -61,6 +61,7 @@
 
 - (void)menu_refresh {
     // SYNC THE MENU
+    //ENDPOINT: Items/List
 #warning INCOMPLETE IMPLEMENTATION
 }
 
