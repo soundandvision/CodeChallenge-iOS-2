@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B99794319C786CA0007F97E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B99794219C786CA0007F97E /* Foundation.framework */; };
+		5B99794519C786CA0007F97E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B99794419C786CA0007F97E /* CoreGraphics.framework */; };
+		5B99794719C786CA0007F97E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B99794619C786CA0007F97E /* UIKit.framework */; };
+		5B99794D19C786CA0007F97E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B99794B19C786CA0007F97E /* InfoPlist.strings */; };
+		5B99794F19C786CA0007F97E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B99794E19C786CA0007F97E /* main.m */; };
+		5B99795319C786CA0007F97E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B99795219C786CA0007F97E /* AppDelegate.m */; };
+		5B99795519C786CA0007F97E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B99795419C786CA0007F97E /* Images.xcassets */; };
+		5B99795C19C786CA0007F97E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B99795B19C786CA0007F97E /* XCTest.framework */; };
+		5B99795D19C786CA0007F97E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B99794219C786CA0007F97E /* Foundation.framework */; };
+		5B99795E19C786CA0007F97E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B99794619C786CA0007F97E /* UIKit.framework */; };
+		5B99796619C786CA0007F97E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B99796419C786CA0007F97E /* InfoPlist.strings */; };
+		5B99796819C786CA0007F97E /* iOS_Code_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B99796719C786CA0007F97E /* iOS_Code_ChallengeTests.m */; };
+		5BF1320819C7875F0089BEA1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1320719C7875F0089BEA1 /* MainViewController.m */; };
+		5BF1320C19C7899B0089BEA1 /* CookieKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1320B19C7899B0089BEA1 /* CookieKit.m */; };
+		5BF1321019C793DB0089BEA1 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1320F19C793DB0089BEA1 /* MenuViewController.m */; };
+		5BF1322B19C7A60C0089BEA1 /* MP+MPKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1321719C7A60C0089BEA1 /* MP+MPKey.m */; };
+		5BF1322C19C7A60C0089BEA1 /* MP+NSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1321A19C7A60C0089BEA1 /* MP+NSDate.m */; };
+		5BF1322D19C7A60C0089BEA1 /* MP+NSDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1321D19C7A60C0089BEA1 /* MP+NSDateFormatter.m */; };
+		5BF1322E19C7A60C0089BEA1 /* MP+NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1322019C7A60C0089BEA1 /* MP+NSDictionary.m */; };
+		5BF1322F19C7A60C0089BEA1 /* MP+UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1322319C7A60C0089BEA1 /* MP+UIImage+Color.m */; };
+		5BF1323019C7A60C0089BEA1 /* MP+UITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1322619C7A60C0089BEA1 /* MP+UITextField.m */; };
+		5BF1323119C7A60C0089BEA1 /* MP+UITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1322919C7A60C0089BEA1 /* MP+UITextView.m */; };
+		5BF1323419C7A6B90089BEA1 /* CKMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1323319C7A6B90089BEA1 /* CKMenuItem.m */; };
+		5BF1323719C7C1620089BEA1 /* CKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1323619C7C1620089BEA1 /* CKUser.m */; };
+		5BF1323A19C7C8D70089BEA1 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF1323919C7C8D70089BEA1 /* MenuTableViewCell.m */; };
+		5BFEE05919C8C6B400C2B908 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEE05619C8C66600C2B908 /* OpenSans-Bold.ttf */; };
+		5BFEE05A19C8C6B400C2B908 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEE05719C8C66600C2B908 /* OpenSans-Light.ttf */; };
+		5BFEE05B19C8C6B400C2B908 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEE05819C8C66600C2B908 /* OpenSans-Regular.ttf */; };
+		5BFEE05F19C8C88C00C2B908 /* list-detail-disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEE05E19C8C88C00C2B908 /* list-detail-disclosure.png */; };
+		5BFEE06519C8CEEF00C2B908 /* MenuDetailPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFEE06419C8CEEF00C2B908 /* MenuDetailPopup.m */; };
+		5BFEE06719C8D43A00C2B908 /* popup-close-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEE06619C8D43A00C2B908 /* popup-close-btn.png */; };
+		5BFEE06919C8D63400C2B908 /* popup-close-btn-a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEE06819C8D63300C2B908 /* popup-close-btn-a.png */; };
+		5BFEE06B19C8E00B00C2B908 /* popup-cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEE06A19C8E00B00C2B908 /* popup-cart.png */; };
+		5BFEE06D19C8EC3F00C2B908 /* popup-bottom-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BFEE06C19C8EC3F00C2B908 /* popup-bottom-close.png */; };
+		5BFEE07519C8FB1400C2B908 /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFEE07419C8FB1400C2B908 /* CartViewController.m */; };
+		5BFEE07819C8FD2300C2B908 /* CartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFEE07719C8FD2300C2B908 /* CartTableViewCell.m */; };
+		5BFFABE419D0ADF100197A55 /* nav-basket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BFFABE319D0ADF100197A55 /* nav-basket@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B99795F19C786CA0007F97E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B99793719C786CA0007F97E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B99793E19C786CA0007F97E;
+			remoteInfo = "iOS Code Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B99793F19C786CA0007F97E /* iOS Code Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Code Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B99794219C786CA0007F97E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B99794419C786CA0007F97E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B99794619C786CA0007F97E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B99794A19C786CA0007F97E /* iOS Code Challenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Code Challenge-Info.plist"; sourceTree = "<group>"; };
+		5B99794C19C786CA0007F97E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B99794E19C786CA0007F97E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B99795019C786CA0007F97E /* iOS Code Challenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Code Challenge-Prefix.pch"; sourceTree = "<group>"; };
+		5B99795119C786CA0007F97E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B99795219C786CA0007F97E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B99795419C786CA0007F97E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B99795A19C786CA0007F97E /* iOS Code ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Code ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B99795B19C786CA0007F97E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B99796319C786CA0007F97E /* iOS Code ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Code ChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		5B99796519C786CA0007F97E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B99796719C786CA0007F97E /* iOS_Code_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Code_ChallengeTests.m; sourceTree = "<group>"; };
+		5BF1320619C7875F0089BEA1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5BF1320719C7875F0089BEA1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5BF1320A19C7899B0089BEA1 /* CookieKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookieKit.h; sourceTree = "<group>"; };
+		5BF1320B19C7899B0089BEA1 /* CookieKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookieKit.m; sourceTree = "<group>"; };
+		5BF1320E19C793DB0089BEA1 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		5BF1320F19C793DB0089BEA1 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		5BF1321619C7A60C0089BEA1 /* MP+MPKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MP+MPKey.h"; sourceTree = "<group>"; };
+		5BF1321719C7A60C0089BEA1 /* MP+MPKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MP+MPKey.m"; sourceTree = "<group>"; };
+		5BF1321919C7A60C0089BEA1 /* MP+NSDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MP+NSDate.h"; sourceTree = "<group>"; };
+		5BF1321A19C7A60C0089BEA1 /* MP+NSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MP+NSDate.m"; sourceTree = "<group>"; };
+		5BF1321C19C7A60C0089BEA1 /* MP+NSDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MP+NSDateFormatter.h"; sourceTree = "<group>"; };
+		5BF1321D19C7A60C0089BEA1 /* MP+NSDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MP+NSDateFormatter.m"; sourceTree = "<group>"; };
+		5BF1321F19C7A60C0089BEA1 /* MP+NSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MP+NSDictionary.h"; sourceTree = "<group>"; };
+		5BF1322019C7A60C0089BEA1 /* MP+NSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MP+NSDictionary.m"; sourceTree = "<group>"; };
+		5BF1322219C7A60C0089BEA1 /* MP+UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MP+UIImage+Color.h"; sourceTree = "<group>"; };
+		5BF1322319C7A60C0089BEA1 /* MP+UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MP+UIImage+Color.m"; sourceTree = "<group>"; };
+		5BF1322519C7A60C0089BEA1 /* MP+UITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MP+UITextField.h"; sourceTree = "<group>"; };
+		5BF1322619C7A60C0089BEA1 /* MP+UITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MP+UITextField.m"; sourceTree = "<group>"; };
+		5BF1322819C7A60C0089BEA1 /* MP+UITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MP+UITextView.h"; sourceTree = "<group>"; };
+		5BF1322919C7A60C0089BEA1 /* MP+UITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MP+UITextView.m"; sourceTree = "<group>"; };
+		5BF1322A19C7A60C0089BEA1 /* MPClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPClasses.h; sourceTree = "<group>"; };
+		5BF1323219C7A6B90089BEA1 /* CKMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKMenuItem.h; sourceTree = "<group>"; };
+		5BF1323319C7A6B90089BEA1 /* CKMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKMenuItem.m; sourceTree = "<group>"; };
+		5BF1323519C7C1620089BEA1 /* CKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKUser.h; sourceTree = "<group>"; };
+		5BF1323619C7C1620089BEA1 /* CKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKUser.m; sourceTree = "<group>"; };
+		5BF1323819C7C8D70089BEA1 /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		5BF1323919C7C8D70089BEA1 /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
+		5BFEE05619C8C66600C2B908 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		5BFEE05719C8C66600C2B908 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		5BFEE05819C8C66600C2B908 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		5BFEE05E19C8C88C00C2B908 /* list-detail-disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-detail-disclosure.png"; sourceTree = "<group>"; };
+		5BFEE06319C8CEEF00C2B908 /* MenuDetailPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuDetailPopup.h; sourceTree = "<group>"; };
+		5BFEE06419C8CEEF00C2B908 /* MenuDetailPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuDetailPopup.m; sourceTree = "<group>"; };
+		5BFEE06619C8D43A00C2B908 /* popup-close-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup-close-btn.png"; sourceTree = "<group>"; };
+		5BFEE06819C8D63300C2B908 /* popup-close-btn-a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup-close-btn-a.png"; sourceTree = "<group>"; };
+		5BFEE06A19C8E00B00C2B908 /* popup-cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup-cart.png"; sourceTree = "<group>"; };
+		5BFEE06C19C8EC3F00C2B908 /* popup-bottom-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popup-bottom-close.png"; sourceTree = "<group>"; };
+		5BFEE07319C8FB1400C2B908 /* CartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		5BFEE07419C8FB1400C2B908 /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		5BFEE07619C8FD2300C2B908 /* CartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartTableViewCell.h; sourceTree = "<group>"; };
+		5BFEE07719C8FD2300C2B908 /* CartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartTableViewCell.m; sourceTree = "<group>"; };
+		5BFFABE319D0ADF100197A55 /* nav-basket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-basket@2x.png"; sourceTree = "<group>"; };
+		B412C8D1C8C74E71BF0688C4 /* libPods-iOS Code Challenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS Code Challenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B99793C19C786CA0007F97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B99794519C786CA0007F97E /* CoreGraphics.framework in Frameworks */,
+				5B99794719C786CA0007F97E /* UIKit.framework in Frameworks */,
+				5B99794319C786CA0007F97E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B99795719C786CA0007F97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B99795C19C786CA0007F97E /* XCTest.framework in Frameworks */,
+				5B99795E19C786CA0007F97E /* UIKit.framework in Frameworks */,
+				5B99795D19C786CA0007F97E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B99793619C786CA0007F97E = {
+			isa = PBXGroup;
+			children = (
+				5B99794819C786CA0007F97E /* iOS Code Challenge */,
+				5B99796119C786CA0007F97E /* iOS Code ChallengeTests */,
+				5B99794119C786CA0007F97E /* Frameworks */,
+				5B99794019C786CA0007F97E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B99794019C786CA0007F97E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B99793F19C786CA0007F97E /* iOS Code Challenge.app */,
+				5B99795A19C786CA0007F97E /* iOS Code ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B99794119C786CA0007F97E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B99794219C786CA0007F97E /* Foundation.framework */,
+				5B99794419C786CA0007F97E /* CoreGraphics.framework */,
+				5B99794619C786CA0007F97E /* UIKit.framework */,
+				5B99795B19C786CA0007F97E /* XCTest.framework */,
+				B412C8D1C8C74E71BF0688C4 /* libPods-iOS Code Challenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B99794819C786CA0007F97E /* iOS Code Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				5BFEE05519C8C64300C2B908 /* Fonts */,
+				5BF1321419C7A60C0089BEA1 /* MPClasses */,
+				5BF1320D19C789A20089BEA1 /* CookieKit */,
+				5B99795119C786CA0007F97E /* AppDelegate.h */,
+				5B99795219C786CA0007F97E /* AppDelegate.m */,
+				5BF1320619C7875F0089BEA1 /* MainViewController.h */,
+				5BF1320719C7875F0089BEA1 /* MainViewController.m */,
+				5BFFABE319D0ADF100197A55 /* nav-basket@2x.png */,
+				5BFEE06E19C8F99300C2B908 /* Menu */,
+				5BFEE06F19C8F99900C2B908 /* Shopping Cart */,
+				5B99795419C786CA0007F97E /* Images.xcassets */,
+				5B99794919C786CA0007F97E /* Supporting Files */,
+			);
+			path = "iOS Code Challenge";
+			sourceTree = "<group>";
+		};
+		5B99794919C786CA0007F97E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B99794A19C786CA0007F97E /* iOS Code Challenge-Info.plist */,
+				5B99794B19C786CA0007F97E /* InfoPlist.strings */,
+				5B99794E19C786CA0007F97E /* main.m */,
+				5B99795019C786CA0007F97E /* iOS Code Challenge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B99796119C786CA0007F97E /* iOS Code ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B99796719C786CA0007F97E /* iOS_Code_ChallengeTests.m */,
+				5B99796219C786CA0007F97E /* Supporting Files */,
+			);
+			path = "iOS Code ChallengeTests";
+			sourceTree = "<group>";
+		};
+		5B99796219C786CA0007F97E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B99796319C786CA0007F97E /* iOS Code ChallengeTests-Info.plist */,
+				5B99796419C786CA0007F97E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BF1320D19C789A20089BEA1 /* CookieKit */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1320A19C7899B0089BEA1 /* CookieKit.h */,
+				5BF1320B19C7899B0089BEA1 /* CookieKit.m */,
+				5BF1323519C7C1620089BEA1 /* CKUser.h */,
+				5BF1323619C7C1620089BEA1 /* CKUser.m */,
+				5BF1323219C7A6B90089BEA1 /* CKMenuItem.h */,
+				5BF1323319C7A6B90089BEA1 /* CKMenuItem.m */,
+			);
+			name = CookieKit;
+			sourceTree = "<group>";
+		};
+		5BF1321419C7A60C0089BEA1 /* MPClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1321519C7A60C0089BEA1 /* MP+MPKey */,
+				5BF1321819C7A60C0089BEA1 /* MP+NSDate */,
+				5BF1321B19C7A60C0089BEA1 /* MP+NSDateFormatter */,
+				5BF1321E19C7A60C0089BEA1 /* MP+NSDictionary */,
+				5BF1322119C7A60C0089BEA1 /* MP+UIImage+Color */,
+				5BF1322419C7A60C0089BEA1 /* MP+UITextField */,
+				5BF1322719C7A60C0089BEA1 /* MP+UITextView */,
+				5BF1322A19C7A60C0089BEA1 /* MPClasses.h */,
+			);
+			path = MPClasses;
+			sourceTree = "<group>";
+		};
+		5BF1321519C7A60C0089BEA1 /* MP+MPKey */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1321619C7A60C0089BEA1 /* MP+MPKey.h */,
+				5BF1321719C7A60C0089BEA1 /* MP+MPKey.m */,
+			);
+			path = "MP+MPKey";
+			sourceTree = "<group>";
+		};
+		5BF1321819C7A60C0089BEA1 /* MP+NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1321919C7A60C0089BEA1 /* MP+NSDate.h */,
+				5BF1321A19C7A60C0089BEA1 /* MP+NSDate.m */,
+			);
+			path = "MP+NSDate";
+			sourceTree = "<group>";
+		};
+		5BF1321B19C7A60C0089BEA1 /* MP+NSDateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1321C19C7A60C0089BEA1 /* MP+NSDateFormatter.h */,
+				5BF1321D19C7A60C0089BEA1 /* MP+NSDateFormatter.m */,
+			);
+			path = "MP+NSDateFormatter";
+			sourceTree = "<group>";
+		};
+		5BF1321E19C7A60C0089BEA1 /* MP+NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1321F19C7A60C0089BEA1 /* MP+NSDictionary.h */,
+				5BF1322019C7A60C0089BEA1 /* MP+NSDictionary.m */,
+			);
+			path = "MP+NSDictionary";
+			sourceTree = "<group>";
+		};
+		5BF1322119C7A60C0089BEA1 /* MP+UIImage+Color */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1322219C7A60C0089BEA1 /* MP+UIImage+Color.h */,
+				5BF1322319C7A60C0089BEA1 /* MP+UIImage+Color.m */,
+			);
+			path = "MP+UIImage+Color";
+			sourceTree = "<group>";
+		};
+		5BF1322419C7A60C0089BEA1 /* MP+UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1322519C7A60C0089BEA1 /* MP+UITextField.h */,
+				5BF1322619C7A60C0089BEA1 /* MP+UITextField.m */,
+			);
+			path = "MP+UITextField";
+			sourceTree = "<group>";
+		};
+		5BF1322719C7A60C0089BEA1 /* MP+UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1322819C7A60C0089BEA1 /* MP+UITextView.h */,
+				5BF1322919C7A60C0089BEA1 /* MP+UITextView.m */,
+			);
+			path = "MP+UITextView";
+			sourceTree = "<group>";
+		};
+		5BFEE05519C8C64300C2B908 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5BFEE05619C8C66600C2B908 /* OpenSans-Bold.ttf */,
+				5BFEE05719C8C66600C2B908 /* OpenSans-Light.ttf */,
+				5BFEE05819C8C66600C2B908 /* OpenSans-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		5BFEE06E19C8F99300C2B908 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5BF1320E19C793DB0089BEA1 /* MenuViewController.h */,
+				5BF1320F19C793DB0089BEA1 /* MenuViewController.m */,
+				5BF1323819C7C8D70089BEA1 /* MenuTableViewCell.h */,
+				5BF1323919C7C8D70089BEA1 /* MenuTableViewCell.m */,
+				5BFEE06319C8CEEF00C2B908 /* MenuDetailPopup.h */,
+				5BFEE06419C8CEEF00C2B908 /* MenuDetailPopup.m */,
+				5BFEE05E19C8C88C00C2B908 /* list-detail-disclosure.png */,
+				5BFEE06C19C8EC3F00C2B908 /* popup-bottom-close.png */,
+				5BFEE06819C8D63300C2B908 /* popup-close-btn-a.png */,
+				5BFEE06619C8D43A00C2B908 /* popup-close-btn.png */,
+				5BFEE06A19C8E00B00C2B908 /* popup-cart.png */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		5BFEE06F19C8F99900C2B908 /* Shopping Cart */ = {
+			isa = PBXGroup;
+			children = (
+				5BFEE07319C8FB1400C2B908 /* CartViewController.h */,
+				5BFEE07419C8FB1400C2B908 /* CartViewController.m */,
+				5BFEE07619C8FD2300C2B908 /* CartTableViewCell.h */,
+				5BFEE07719C8FD2300C2B908 /* CartTableViewCell.m */,
+			);
+			name = "Shopping Cart";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B99793E19C786CA0007F97E /* iOS Code Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B99796B19C786CA0007F97E /* Build configuration list for PBXNativeTarget "iOS Code Challenge" */;
+			buildPhases = (
+				5B99793B19C786CA0007F97E /* Sources */,
+				5B99793C19C786CA0007F97E /* Frameworks */,
+				5B99793D19C786CA0007F97E /* Resources */,
+				521394455C694DB38D4B2161 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Code Challenge";
+			productName = "iOS Code Challenge";
+			productReference = 5B99793F19C786CA0007F97E /* iOS Code Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B99795919C786CA0007F97E /* iOS Code ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B99796E19C786CA0007F97E /* Build configuration list for PBXNativeTarget "iOS Code ChallengeTests" */;
+			buildPhases = (
+				5B99795619C786CA0007F97E /* Sources */,
+				5B99795719C786CA0007F97E /* Frameworks */,
+				5B99795819C786CA0007F97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B99796019C786CA0007F97E /* PBXTargetDependency */,
+			);
+			name = "iOS Code ChallengeTests";
+			productName = "iOS Code ChallengeTests";
+			productReference = 5B99795A19C786CA0007F97E /* iOS Code ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B99793719C786CA0007F97E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ora Interactive";
+				TargetAttributes = {
+					5B99795919C786CA0007F97E = {
+						TestTargetID = 5B99793E19C786CA0007F97E;
+					};
+				};
+			};
+			buildConfigurationList = 5B99793A19C786CA0007F97E /* Build configuration list for PBXProject "iOS Code Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B99793619C786CA0007F97E;
+			productRefGroup = 5B99794019C786CA0007F97E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B99793E19C786CA0007F97E /* iOS Code Challenge */,
+				5B99795919C786CA0007F97E /* iOS Code ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B99793D19C786CA0007F97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFEE06D19C8EC3F00C2B908 /* popup-bottom-close.png in Resources */,
+				5BFFABE419D0ADF100197A55 /* nav-basket@2x.png in Resources */,
+				5BFEE05919C8C6B400C2B908 /* OpenSans-Bold.ttf in Resources */,
+				5BFEE05A19C8C6B400C2B908 /* OpenSans-Light.ttf in Resources */,
+				5BFEE06B19C8E00B00C2B908 /* popup-cart.png in Resources */,
+				5BFEE05B19C8C6B400C2B908 /* OpenSans-Regular.ttf in Resources */,
+				5BFEE05F19C8C88C00C2B908 /* list-detail-disclosure.png in Resources */,
+				5BFEE06719C8D43A00C2B908 /* popup-close-btn.png in Resources */,
+				5B99794D19C786CA0007F97E /* InfoPlist.strings in Resources */,
+				5BFEE06919C8D63400C2B908 /* popup-close-btn-a.png in Resources */,
+				5B99795519C786CA0007F97E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B99795819C786CA0007F97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B99796619C786CA0007F97E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		521394455C694DB38D4B2161 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B99793B19C786CA0007F97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF1323719C7C1620089BEA1 /* CKUser.m in Sources */,
+				5BFEE07819C8FD2300C2B908 /* CartTableViewCell.m in Sources */,
+				5BF1322D19C7A60C0089BEA1 /* MP+NSDateFormatter.m in Sources */,
+				5BF1322E19C7A60C0089BEA1 /* MP+NSDictionary.m in Sources */,
+				5BF1322F19C7A60C0089BEA1 /* MP+UIImage+Color.m in Sources */,
+				5BF1322B19C7A60C0089BEA1 /* MP+MPKey.m in Sources */,
+				5BF1320C19C7899B0089BEA1 /* CookieKit.m in Sources */,
+				5B99795319C786CA0007F97E /* AppDelegate.m in Sources */,
+				5BF1323A19C7C8D70089BEA1 /* MenuTableViewCell.m in Sources */,
+				5BFEE06519C8CEEF00C2B908 /* MenuDetailPopup.m in Sources */,
+				5BF1320819C7875F0089BEA1 /* MainViewController.m in Sources */,
+				5BF1323119C7A60C0089BEA1 /* MP+UITextView.m in Sources */,
+				5BF1322C19C7A60C0089BEA1 /* MP+NSDate.m in Sources */,
+				5B99794F19C786CA0007F97E /* main.m in Sources */,
+				5BF1323019C7A60C0089BEA1 /* MP+UITextField.m in Sources */,
+				5BFEE07519C8FB1400C2B908 /* CartViewController.m in Sources */,
+				5BF1323419C7A6B90089BEA1 /* CKMenuItem.m in Sources */,
+				5BF1321019C793DB0089BEA1 /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B99795619C786CA0007F97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B99796819C786CA0007F97E /* iOS_Code_ChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B99796019C786CA0007F97E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B99793E19C786CA0007F97E /* iOS Code Challenge */;
+			targetProxy = 5B99795F19C786CA0007F97E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B99794B19C786CA0007F97E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B99794C19C786CA0007F97E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B99796419C786CA0007F97E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B99796519C786CA0007F97E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B99796919C786CA0007F97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B99796A19C786CA0007F97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B99796C19C786CA0007F97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Code Challenge/iOS Code Challenge-Prefix.pch";
+				INFOPLIST_FILE = "iOS Code Challenge/iOS Code Challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B99796D19C786CA0007F97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Code Challenge/iOS Code Challenge-Prefix.pch";
+				INFOPLIST_FILE = "iOS Code Challenge/iOS Code Challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B99796F19C786CA0007F97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Code Challenge.app/iOS Code Challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Code Challenge/iOS Code Challenge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS Code ChallengeTests/iOS Code ChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B99797019C786CA0007F97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Code Challenge.app/iOS Code Challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Code Challenge/iOS Code Challenge-Prefix.pch";
+				INFOPLIST_FILE = "iOS Code ChallengeTests/iOS Code ChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B99793A19C786CA0007F97E /* Build configuration list for PBXProject "iOS Code Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B99796919C786CA0007F97E /* Debug */,
+				5B99796A19C786CA0007F97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B99796B19C786CA0007F97E /* Build configuration list for PBXNativeTarget "iOS Code Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B99796C19C786CA0007F97E /* Debug */,
+				5B99796D19C786CA0007F97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B99796E19C786CA0007F97E /* Build configuration list for PBXNativeTarget "iOS Code ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B99796F19C786CA0007F97E /* Debug */,
+				5B99797019C786CA0007F97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B99793719C786CA0007F97E /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>277AA6C1-438F-463C-BBD0-4EC08564B26B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOS Code Challenge</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>94C02114B7F60EB7F69D429FFD07C5F8F9B93370</key>
+		<string>https://github.com/OraInteractive/iOS-CodeChallenge.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS-Code-Challenge/iOS Code Challenge.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>94C02114B7F60EB7F69D429FFD07C5F8F9B93370</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/OraInteractive/iOS-CodeChallenge.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>94C02114B7F60EB7F69D429FFD07C5F8F9B93370</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>94C02114B7F60EB7F69D429FFD07C5F8F9B93370</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Code-Challenge</string>
+		</dict>
+	</array>
+</dict>
+</plist>
